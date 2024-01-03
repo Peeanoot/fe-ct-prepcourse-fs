@@ -1,0 +1,17 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+  }
+
+  div {
+    top: 400px;
+    animation-duration: 2s;
+    animation-name: animado;
+}
+
+@keyframes animado {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
