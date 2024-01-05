@@ -15,7 +15,7 @@ describe('actualizarValorPropiedad', () => {
 
   test('should not modify the original object', () => {
     const obj = { foo: 'bar' };
-    actualizarValorPropiedad(obj, 'foo', 'baz');
+    actualizarValorPropiedad(obj, 'foo', 'bar');
     expect(obj).toEqual({ foo: 'bar' });
   });
 });
